@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <!--[if lt IE 9]>
+<!--[if lt IE 9]>
   <script src="js/vendor/html5shiv.min.js"></script>
   <script src="js/vendor/respond.min.js"></script>
 <![endif]-->
 </head>
 <body>
-
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
         <div class="container">
@@ -31,7 +30,7 @@
                 </button>
                 <img class="logo" src="img/logo.png">
             </div>
-            <div id="navbar-collapse" class="navbar-collapse collapse" style="font-size: small;">
+            <div id="navbar-collapse" class="navbar-collapse collapse" style="font-size: small; min-width: 1000px;">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#" data-nav-section="index" style="color: black;">公司首页</a></li>
                     <li><a href="#" data-nav-section="introduction" style="color: black;">公司简介</a></li>
@@ -47,9 +46,8 @@
         </div>
     </nav>
 
-    <section class="flexslider" data-section="index">
-        <div style="width: 100%; height: 8rem; background-color:white;"></div>
-        <ul class="slides">
+    <section class="flexslider daughter" data-section="index" >
+        <ul class="slides daughter" >
             <li class="overlay" data-stellar-background-ratio="0.5">
                 <img src="img/hero_bg_1.jpg" />
             </li>
