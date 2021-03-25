@@ -168,21 +168,17 @@ a:focus {
     color: #333;
 }
 
-.container p {
+.paragraph p {
     font: 100%/1.6 Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
-.container p:first-letter {
+.paragraph p:first-letter {
     color         : #444;
     display       : inline;
     float         : left;
     font          : 2.1em Georgia, arial;
     text-transform: uppercase;
     margin        : 0 0.12em 0 0
-}
-
-.contain p:first-child:first-line {
-    color: inherit;
 }
 
 .search-pop {
@@ -1591,7 +1587,7 @@ h3 {
     background: url(../images/eye.png) no-repeat center;
 }
 
-.n_case a img {
+.n_case img {
     width: 100%;
 }
 
