@@ -1,9 +1,4 @@
-document.writeln(` <div class="space text-center">
-<div class="container"> 如果您有什么问题，欢迎咨询技术员 <a
-        href="http://wpa.qq.com/msgrd?v=3&amp;uin=88888888&amp;site=qq&amp;menu=yes" class="btn">点击QQ咨询</a>
-</div>
-</div>
-
+document.writeln(` 
 <div class="footer">
 <div class="container">
     <div class="row">
