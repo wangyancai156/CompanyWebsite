@@ -33,10 +33,9 @@ document.writeln(`
         <div class="col-sm-12">
             <hr>
         </div>
-        <div class="col-sm-6">Copyright © 2012-2020 优木拓科技有限公司 版权所有 <a
-                href="http://www.beian.miit.gov.cn/">备案号：京ICP备18005879</a></div>
-        <div class="col-sm-6 hidden-xs">
-
+        <div class="col-sm-12" style="text-align : center;">
+            Copyright © 2012-2020 优木拓科技有限公司 版权所有 
+            <a >备案号：京ICP备18005879</a>
         </div>
     </div>
 </div>

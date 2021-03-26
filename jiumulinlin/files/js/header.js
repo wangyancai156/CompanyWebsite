@@ -4,9 +4,14 @@ document.writeln(`
     <div class="nav-logo">
         <div class="pc_logo"> 
             <a href="http://ysy.umutou.com"> 
-                <img alt="山东一是一木业有限公司"  class="logo logo-light" src="./files/logo.png"> </a> </div>
-        <div class="wap_logo"> <a href="http://ysy.umutou.com"> <img src="./files/logo@2x.png">
-            </a> </div>
+                <img alt="山东一是一木业有限公司"  class="logo logo-light" src="./files/logo.png"> 
+            </a> 
+        </div>
+        <div class="wap_logo"> 
+            <a href="http://ysy.umutou.com"> 
+                <img src="./files/logo@2x.png">
+            </a> 
+        </div>
     </div>
     <div class="nav-menu">
         <ul class="menu clearfix">
@@ -27,6 +32,8 @@ document.writeln(`
             <li><a href="http://demoall.dedecms58.com/42935/sitemap.html">网站地图</a></li>
         </ul>
     </div>
-    
+     
+ 
+   
 </div> 
 `)
