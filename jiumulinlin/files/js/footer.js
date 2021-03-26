@@ -56,47 +56,25 @@ document.writeln(`
 </div>
 </div>
 <div class="cndns-right hidden-xs">
-<div class="cndns-right-meau meau-sev"> <a href="javascript:" class="cndns-right-btn" style="border: none;">
-        <span class="fa fa-qq"></span>
-        <p>QQ咨询</p>
-    </a>
-    <div class="cndns-right-box">
-        <div class="box-border">
-            <div class="sev-t"> <span class="fa fa-comments"></span>
-                <p>QQ在线咨询<i>真诚为您提供专业解答服务</i></p>
-                <div class="clear"></div>
-            </div>
-            <div class="sev-b">
-                <ul class="clearfix">
-                    <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=88888888&amp;site=qq&amp;menu=yes">售前技术</a>
-                    </li>
-                    <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=88888888&amp;site=qq&amp;menu=yes">售前技术</a>
-                    </li>
-                    <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=88888888&amp;site=qq&amp;menu=yes">售后技术</a>
-                    </li>
-                    <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=88888888&amp;site=qq&amp;menu=yes">售后技术</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="cndns-right-meau meau-contact"> <a href="javascript:" class="cndns-right-btn"> <span
-            class="fa fa-phone-square"></span>
+
+<div class="cndns-right-meau meau-contact"> 
+    <a href="javascript:" class="cndns-right-btn">
+        <span class="fa fa-phone-square"></span>
         <p> 咨询热线 </p>
     </a>
     <div class="cndns-right-box">
         <div class="box-border">
             <div class="sev-t clearfix"> <span class="fa fa-phone-square"></span>
-                <p>020-88888888<br>
+                <p>13665309999<br>
                     <i>全天候技术服务热线</i>
                 </p>
             </div>
         </div>
     </div>
 </div>
-<div class="cndns-right-meau meau-code"> <a href="javascript:" class="cndns-right-btn"> <span
-            class="fa fa-wechat"></span>
+<div class="cndns-right-meau meau-code"> 
+    <a href="javascript:" class="cndns-right-btn">
+        <span class="fa fa-wechat"></span>
         <p>添加微信</p>
     </a>
     <div class="cndns-right-box">
