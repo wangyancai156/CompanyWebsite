@@ -42,7 +42,7 @@ a:focus {
 }
 
 .nav-logo .logo {
-    height      : 0%;
+    height      : 50%;
     margin-right: 25px;
 }
 
@@ -111,8 +111,7 @@ a:focus {
 }
 
 .nav-menu .menu li.open ul {
-    display   : block;
-    text-align: right;
+    display: block;
 }
 
 .nav-right {
@@ -166,23 +165,6 @@ a:focus {
 
 .header-fix .nav-right a {
     color: #333;
-}
-
-.container p {
-    font: 100%/1.6 Verdana, Geneva, Arial, Helvetica, sans-serif;
-}
-
-.container p:first-letter {
-    color         : #444;
-    display       : inline;
-    float         : left;
-    font          : 2.1em Georgia, arial;
-    text-transform: uppercase;
-    margin        : 0 0.12em 0 0
-}
-
-.contain p:first-child:first-line {
-    color: inherit;
 }
 
 .search-pop {
@@ -1426,7 +1408,6 @@ h3 {
         float        : none;
         border-bottom: 1px solid #e9e9e9;
         line-height  : 40px;
-        text-align   : right;
     }
 
     .nav-menu .menu li.dropdown {

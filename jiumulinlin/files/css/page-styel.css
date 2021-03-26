@@ -27,8 +27,9 @@ a:focus {
     width        : 100%;
     text-align   : center;
 }
+
 .section-title h3 {
-   margin: 0;
+    margin: 0;
 }
 
 h3 {
@@ -122,60 +123,7 @@ h3 {
 }
 
 
-@media (max-width: 767px) {
-
-    .section {
-        padding: 70px 0;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    .lead {
-        font-size: 14px;
-    }
-
-    .section-title {
-        margin-bottom: 20px;
-
-    }
-
-    .section-news .section-title h3 {
-        font-size: 26px;
-    }
-
-    .section-news .section-title small {
-        font-size: 12px;
-    }
-
-    /* 手机下的段落样式 */
-    .paragraph p:first-letter {
-        color         : rgb(31, 73, 125);
-        display       : inline;
-        float         : left;
-        /* 首字下沉 */
-        font          : 1em Georgia, arial;
-        text-transform: uppercase;
-        margin        : 0 0.12em 0 0
-    }
-
-    .mypicture { margin: 3rem;}
-
-    .banner {
-        padding: 50px 0;
-    }
-
-    .banner h1 {
-        font-size    : 30px;
-        margin-bottom: 10px;
-    }
-
-
-}
-
-
-
+/* 标题 */
 .banner {
     padding             : 180px 0;
     background          : no-repeat center center;
@@ -226,4 +174,76 @@ h3 {
 
 .banner .btn:hover {
     border-color: #fff;
+}
+
+
+/* 联系我们 */
+/* 联系我们 */
+.baidumap {
+    min-height: 434px;
+    min-width : 800px;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .section {
+        padding: 70px 0;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .lead {
+        font-size: 14px;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+
+    }
+
+    .section-news .section-title h3 {
+        font-size: 26px;
+    }
+
+    .section-news .section-title small {
+        font-size: 12px;
+    }
+
+    /* 手机下的段落样式 */
+    .paragraph p:first-letter {
+        color         : rgb(31, 73, 125);
+        display       : inline;
+        float         : left;
+        /* 首字下沉 */
+        font          : 1em Georgia, arial;
+        text-transform: uppercase;
+        margin        : 0 0.12em 0 0
+    }
+
+    .mypicture {
+        margin: 3rem;
+    }
+
+    /* 标题 */
+
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner h1 {
+        font-size    : 30px;
+        margin-bottom: 10px;
+    }
+
+    /* 联系我们 */
+    .baidumap {
+        min-height: 434px;
+        min-width : 350px;
+    }
+    
+
 }

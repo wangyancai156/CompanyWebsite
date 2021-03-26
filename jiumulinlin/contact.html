@@ -16,10 +16,12 @@
     <meta name="applicable-device" content="pc,wap">
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" href="./files/awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./files/css/index.css">
+    <!-- <link rel="stylesheet" href="./files/awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./files/css/bootstrap.css">
     <link rel="stylesheet" href="./files/css/owl.carousel.css">
-    <link rel="stylesheet" href="./files/css/style.css">
+    <link rel="stylesheet" href="./files/css/style.css"> -->
     <script src="./files/js/jquery-1.11.0.min.js"></script>
     <script src="./files/js/owl.carousel.min.js"></script>
     <script src="./files/js/app.js"></script>
@@ -41,29 +43,35 @@
             <p class="lead">匠心为您打造精品板材</p>
         </div>
     </div>
-    <div class="features text-center clearfix">
-        <div class="item col-md-4" style="background-color: #f4f4f4;"> <i class="fa fa-user"></i>
-            <h4>联系电话</h4>
-            <p>手机号码：13665309999<br>
-                联系人：王先生（总经理）</p>
-        </div>
-        <div class="item col-md-4" style="background-color: #465bb6;color: #fff;"> <i class="fa fa-print"></i>
-            <h4>传真</h4>
-            <p>0530-2061399</p>
-        </div>
-        <div class="item col-md-4" style="background-color: #fff;"> <i class="fa fa-map-marker"></i>
-            <h4>地址位置</h4>
-            <p>山东曹县庄寨镇工业园</p>
-        </div>
-        <div class="item col-md-4" style="background-color: #465bb6;color: #fff;"> 
-        </div>
-        <div id="allmap" class="item col-md-4" style="background-color: #fff;" >
-            <p>山东曹县庄寨镇工业园</p>
-        </div>
-        <div class="item col-md-4" style="background-color: #465bb6;color: #fff;"> 
-        </div>
 
+    <div class="section">
+        <!-- style="background-image:  url(./files/image/xiushi.jpg); background-size:100% 100% ; background-attachment: fixed" -->
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h3>企业名片</h3>
+                    <h3 style="color: darkgray;">About us</h3>
+                    <img class="mod-image" src="./files/image/biaoti.png" />
+                </div>
+                <div class="col col-md-4   col-sm-12">
+                    <div class="paragraph">
+                        <p> 山东一是一木业有限公司是山东曹县重要的木材加工企业。公路、铁路纵横交错，四通八达，交通十分便利。公司组建于1998年，经过多年的磨练，克服了种种困难，打造出先进的管理流程、造就了一批精干的管理队伍、培养了一批技能精湛员工，引进先进的生产设备，建有细木工板车间、生态板车间。产品选用优良桐木为原料，经过锯切、旋切、压刨、烘干，热压胶和，砂光等多种先进的工艺流程，年生产量达150万张。
+                        </p>
+                        <p>
+                            我公司专业生产各种规格细木工板，生态板。我公司生产的“一是一”牌细木工板被多家省内外装饰公司及家具厂等用户列为指定用板，受到客户好评，获得广大客商的信赖和认可。我公司一直恪守“质量为先，信誉至上”的经营宗旨，竭诚为新老客户服务。公司总经理王彦昌热忱欢迎广大客户到我公司考察、参观、指导。
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-md-8  col-sm-12">
+                    <div id="allmap" class="baidumap" > </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- <div id="allmap" class="item 8" style="width: 40%; float: initial;" > </div> -->
+
+
     <script>
         var map, marker;
         initMap();
@@ -88,8 +96,8 @@
             var opts = {
                 width: 300,
                 height: 80,
-                title: '<div  style=" text-align: center;">山东一是一木业有限公司</div>' 
-                
+                title: '<div  style=" text-align: center;">山东一是一木业有限公司</div>'
+
             };
             var infoWindow = new BMap.InfoWindow('<div style="text-align: center; padding-top: 2rem; padding: 2rem;">地址：山东曹县庄寨镇工业园</div>', opts);
             map.openInfoWindow(infoWindow, point); // 开启信息窗口
@@ -97,7 +105,7 @@
             marker.addEventListener('click', function () {
                 map.openInfoWindow(infoWindow, point); // 开启信息窗口
             });
-           
+
         }
 
         //创建地图函数：

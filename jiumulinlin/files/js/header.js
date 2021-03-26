@@ -19,7 +19,7 @@ document.writeln(`
 
             <li><a href="about.html">公司简介</a></li>
 
-            <li><a href="chanpinzhongxin.html">产品中心</a></li>
+            <li><a href="product.html">产品中心</a></li>
 
             <li><a href="message.html">企业实力</a></li>
 
